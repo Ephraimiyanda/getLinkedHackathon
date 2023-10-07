@@ -286,7 +286,7 @@ export default function Home() {
             <div className="flex flex-col gap-16 max-w-[600px]">
               <div className="flex flex-col gap-5">
                 <h3 className="text-3xl font-extrabold">
-                  {" "}
+                  
                   <span>Judging Criteria</span>
                   <br />
                   <span className="text-[#D434FE]">Key attributes</span>
@@ -296,7 +296,7 @@ export default function Home() {
                   <p className="text-[15px]">
                     <span className="text-[#FF26B9]  text-sm font-medium">
                       Innovation and Creativity:
-                    </span>{" "}
+                    </span>
                     Evaluate the uniqueness and creativity of the
                    
                     solution. Consider whether it addresses a real-world problem
@@ -309,7 +309,7 @@ export default function Home() {
                     <span className="text-[#FF26B9] text-sm font-medium">
                       Functionality:
                     </span>
-                    Assess how well the solution works. Does it perform its{" "}
+                    Assess how well the solution works. Does it perform its
                    
                     intended functions effectively and without major issues?
                     Judges would
@@ -334,7 +334,7 @@ export default function Home() {
                     <span className="text-[#FF26B9] text-sm font-medium">
                       Technical Complexity:
                     </span>
-                    Evaluate the technical sophistication of the solution.{" "}
+                    Evaluate the technical sophistication of the solution.
                     
                     Judges would consider the complexity of the code, the use of
                     advanced 
@@ -374,7 +374,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col gap-2">
                   <h4 className="text-3xl font-extrabold">
-                    {" "}
+                    
                     <span>Frequently Ask</span>
                     <br />
                     <span className="text-[#D434FE]">Questions</span>
@@ -409,7 +409,7 @@ export default function Home() {
                 </div>
                 <div className="py-3 border-b border-b-[#D434FE] flex justify-between gap-4">
                   <p>
-                    {" "}
+                    
                     Can I work on a project I started before the hackathon?
                   </p>
                   <span className="text-[#D434FE] cursor-pointer">+</span>
@@ -665,7 +665,7 @@ export default function Home() {
                       Demo Day
                     </span>
                     <p className="text-left lg:text-base  text-sm max-w-[360px]">
-                      {" "}
+                      
                       Teams get the opportunity to pitch their projects to
                       judges.
                       The winner of the hackathon will also be announced on
@@ -685,7 +685,7 @@ export default function Home() {
               <div className="flex max-w-[700px] w-full m-auto">
                 <div className="flex flex-col gap-2 text-center lg:text-left m-auto lg:m-0 lg:ml-auto ">
                   <h4 className="text-3xl font-extrabold">
-                    {" "}
+                    
                     <span>Prizes and</span>
                     <br />
                     <span className="text-[#D434FE]">Rewards</span>
@@ -783,7 +783,7 @@ export default function Home() {
                   Partners and Sponsors
                 </h5>
                 <p>
-                  Getlinked Hackathon 1.0 is honored to have the following major{" "}
+                  Getlinked Hackathon 1.0 is honored to have the following major
                   <br />
                   companies as its partners and sponsors
                 </p>
@@ -889,7 +889,7 @@ export default function Home() {
                   <h6 className="text-3xl font-extrabold">
                     Privacy Policy and
                     <br />
-                    <span className="text-[#D434FE]">Terms</span>{" "}
+                    <span className="text-[#D434FE]">Terms</span>
                   </h6>
                   <Image
                     src={darkStar}
