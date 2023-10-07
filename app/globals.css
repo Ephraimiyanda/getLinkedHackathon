@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@1,300&family=Unica+One&display=swap');
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+html{
+  background: #150E28;
+}
+body {
+ background: #150E28;
+ height: 100dvh;
+ color: white;
+ overflow-y: auto;
+ height: fit-content;
+}
+.register{
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56%, #FF26B9 100%, #FE34B9 100%);
+  color: white;
+  width: 130px;
+  border-radius: 4px;
+}
+.color-bg{
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56%, #FF26B9 100%, #FE34B9 100%);
+ 
+}
+.main{
+  background: #150E28;
+}
+.small_circle{
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+  padding-top: 2px;
+}
