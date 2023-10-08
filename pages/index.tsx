@@ -1,41 +1,41 @@
-import Image from "next/image";
-import bulb from "../public/bulb.svg";
-import chain from "../public/chain-9365116-7621444.svg";
-import whiteStar from "../public/white-star.svg";
-import bubbles from "../public/bubbles.svg";
-import man from "../public/man-wearing-smart-glasses-touching-virtual-screen 1.svg";
-import darkStar from "../public/tiny-star.svg";
 import { Button, Link } from "@nextui-org/react";
 import { Unica_One } from "next/font/google";
+import Image from "next/image";
+import libertyAssured from "../public/Liberty company logo white colour.svg";
+import Libertypay from "../public/Liberty company logo white.svg";
+import paybox from "../public/Paybox.svg";
+import visualz from "../public/Vizual Plus.svg";
+import winwise from "../public/Winwise logo White colour 1.svg";
 import bang from "../public/bang.svg";
-import redCurve from "../public/red curve.svg";
-import innovationBulb from "../public/the big idea 1.svg";
-import purpleStar from "../public/star purple.svg";
+import bronze from "../public/bronze_medal 1.svg";
+import bubbles from "../public/bubbles.svg";
+import bulb from "../public/bulb.svg";
+import chain from "../public/chain-9365116-7621444.svg";
 import curverArrow from "../public/curved arrow.svg";
-import womanSitting from "../public/woman sitting.svg";
-import PeopleStanding from "../public/ppl standing.svg";
 import manOnCloud from "../public/cwok_casual_21 1.svg";
-import questionMark from "../public/question mark.svg";
+import facebook from "../public/facebook.svg";
 import fadedQ from "../public/faded qus.svg";
 import goldcup from "../public/gold trophy.svg";
 import goldmedal from "../public/gold_medal 1.svg";
-import silvermedal from "../public/silver_medal 1.svg";
-import bronze from "../public/bronze_medal 1.svg";
-import Libertypay from "../public/Liberty company logo white.svg";
-import libertyAssured from "../public/Liberty company logo white colour.svg";
-import winwise from "../public/Winwise logo White colour 1.svg";
-import wisper from "../public/wisper logo white.svg";
-import visualz from "../public/Vizual Plus.svg";
-import paybox from "../public/Paybox.svg";
 import listicon from "../public/list terms.svg";
-import padlockman from "../public/open security.svg";
-import securityIcon from "../public/security.svg";
-import instagram from "../public/mdi_instagram.svg";
-import twitter from "../public/x.svg";
-import facebook from "../public/facebook.svg";
-import linkedIn from "../public/ri_linkedin-fill.svg";
-import telephone from "../public/telephone.svg";
 import location from "../public/location.svg";
+import man from "../public/man-wearing-smart-glasses-touching-virtual-screen 1.svg";
+import instagram from "../public/mdi_instagram.svg";
+import padlockman from "../public/open security.svg";
+import PeopleStanding from "../public/ppl standing.svg";
+import questionMark from "../public/question mark.svg";
+import redCurve from "../public/red curve.svg";
+import linkedIn from "../public/ri_linkedin-fill.svg";
+import securityIcon from "../public/security.svg";
+import silvermedal from "../public/silver_medal 1.svg";
+import purpleStar from "../public/star purple.svg";
+import telephone from "../public/telephone.svg";
+import innovationBulb from "../public/the big idea 1.svg";
+import darkStar from "../public/tiny-star.svg";
+import whiteStar from "../public/white-star.svg";
+import wisper from "../public/wisper logo white.svg";
+import womanSitting from "../public/woman sitting.svg";
+import twitter from "../public/x.svg";
 
 const unica = Unica_One({
   weight: "400", // if single weight, otherwise you use array like [400, 500, 700],
@@ -100,7 +100,12 @@ export default function Home() {
                 Participate in getlinked tech Hackathon 2023 stand <br />a
                 chance to win a Big prize
               </p>
-              <Button as={Link} href="#" radius="none" className=" register m-auto lg:m-0">
+              <Button
+                as={Link}
+                href="#"
+                radius="none"
+                className=" register m-auto lg:m-0"
+              >
                 Register
               </Button>
               <div className="max-w-[300px] pt-0">
@@ -112,7 +117,9 @@ export default function Home() {
                   className="ml-auto"
                 />
               </div>
-              <div className={`${unica.className} flex gap-4 justify-center lg:justify-start`}>
+              <div
+                className={`${unica.className} flex gap-4 justify-center lg:justify-start`}
+              >
                 <p className="text-5xl">
                   00<sub className="text-xs bottom-[0] ">H</sub>
                 </p>
@@ -192,18 +199,12 @@ export default function Home() {
               </div>
               <p>
                 Our tech hackathon is a melting pot of visionaries, and its
-                purpose is as
-                
-                clear as day: to shape the future. Whether you're a coding
-                genius, a
-                design maverick, or a concept wizard, you'll have the chance to
-                transform 
-                your ideas into reality. Solving real-world problems, pushing
-                the boundaries
-                
-                of technology, and creating solutions that can change the world,
-                
-                that's what we're all about!
+                purpose is as clear as day: to shape the future. Whether you're
+                a coding genius, a design maverick, or a concept wizard, you'll
+                have the chance to transform your ideas into reality. Solving
+                real-world problems, pushing the boundaries of technology, and
+                creating solutions that can change the world, that's what we're
+                all about!
               </p>
             </div>
           </div>
@@ -286,7 +287,6 @@ export default function Home() {
             <div className="flex flex-col gap-16 max-w-[600px]">
               <div className="flex flex-col gap-5">
                 <h3 className="text-3xl font-extrabold">
-                  
                   <span>Judging Criteria</span>
                   <br />
                   <span className="text-[#D434FE]">Key attributes</span>
@@ -297,11 +297,9 @@ export default function Home() {
                     <span className="text-[#FF26B9]  text-sm font-medium">
                       Innovation and Creativity:
                     </span>
-                    Evaluate the uniqueness and creativity of the
-                   
-                    solution. Consider whether it addresses a real-world problem
-                    in a novel
-                    way or introduces innovative features.
+                    Evaluate the uniqueness and creativity of the solution.
+                    Consider whether it addresses a real-world problem in a
+                    novel way or introduces innovative features.
                   </p>
                 </div>
                 <div>
@@ -310,10 +308,9 @@ export default function Home() {
                       Functionality:
                     </span>
                     Assess how well the solution works. Does it perform its
-                   
                     intended functions effectively and without major issues?
-                    Judges would
-                    consider the completeness and robustness of the solution.
+                    Judges would consider the completeness and robustness of the
+                    solution.
                   </p>
                 </div>
                 <div>
@@ -321,12 +318,10 @@ export default function Home() {
                     <span className="text-[#FF26B9] text-sm font-medium">
                       Impact and Relevance:
                     </span>
-                    Determine the potential impact of the solution 
-                    in the real world. Does it address a significant problem,
-                    and is it relevant 
-                    to the target audience? Judges would assess the potential
-                    social,
-                    economic, or environmental benefits.
+                    Determine the potential impact of the solution in the real
+                    world. Does it address a significant problem, and is it
+                    relevant to the target audience? Judges would assess the
+                    potential social, economic, or environmental benefits.
                   </p>
                 </div>
                 <div>
@@ -335,11 +330,9 @@ export default function Home() {
                       Technical Complexity:
                     </span>
                     Evaluate the technical sophistication of the solution.
-                    
                     Judges would consider the complexity of the code, the use of
-                    advanced 
-                    technologies or algorithms, and the scalability of the
-                    solution.
+                    advanced technologies or algorithms, and the scalability of
+                    the solution.
                   </p>
                 </div>
                 <div>
@@ -347,9 +340,8 @@ export default function Home() {
                     <span className="text-[#FF26B9] text-sm font-medium">
                       Adherence to Hackathon Rules:
                     </span>
-                    Judges will Ensure that the team adhered
-                    to the rules and guidelines of the hackathon, including
-                    deadlines, use of 
+                    Judges will Ensure that the team adhered to the rules and
+                    guidelines of the hackathon, including deadlines, use of
                     specific technologies or APIs, and any other
                     competition-specific requirements.
                   </p>
@@ -374,7 +366,6 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col gap-2">
                   <h4 className="text-3xl font-extrabold">
-                    
                     <span>Frequently Ask</span>
                     <br />
                     <span className="text-[#D434FE]">Questions</span>
@@ -408,10 +399,7 @@ export default function Home() {
                   <span className="text-[#D434FE] cursor-pointer">+</span>
                 </div>
                 <div className="py-3 border-b border-b-[#D434FE] flex justify-between gap-4">
-                  <p>
-                    
-                    Can I work on a project I started before the hackathon?
-                  </p>
+                  <p>Can I work on a project I started before the hackathon?</p>
                   <span className="text-[#D434FE] cursor-pointer">+</span>
                 </div>
               </div>
@@ -580,14 +568,13 @@ export default function Home() {
                 </div>
 
                 <div className="flex flex-col gap-[24px] lg:gap-[100px] lg:translate-y-[150px] h-fit">
-                <div className="flex lg:hidden flex-col h-[124px]">
+                  <div className="flex lg:hidden flex-col h-[124px]">
                     <span className=" text-[#D434FE] text-xl font-extrabold flex ">
                       Hackathon Announcement
                     </span>
                     <p className="text-sm">
-                      The getlinked tech hackathon 1.0 is formally announced
-                      
-                      to the general public and teams begin to get ready to
+                      The getlinked tech hackathon 1.0 is formally announced to
+                      the general public and teams begin to get ready to
                       register
                     </p>
                   </div>
@@ -596,14 +583,13 @@ export default function Home() {
                       November 18, 2023
                     </span>
                   </div>
-                
+
                   <div className="lg:h-auto h-[110px]">
                     <span className="ml-auto text-[#D434FE] text-xl font-extrabold flex justify-start">
                       Teams Registration begins
                     </span>
                     <p className="text-left lg:text-base  text-sm max-w-[360px]">
                       Interested teams can now show their interest in the
-                      
                       getlinked tech hackathon 1.0 2023 by proceeding to
                       register
                     </p>
@@ -618,9 +604,7 @@ export default function Home() {
                       Teams Registration ends
                     </span>
                     <p className="text-sm">
-                      Interested Participants are no longer Allowed to
-                      
-                      register
+                      Interested Participants are no longer Allowed to register
                     </p>
                   </div>
                   <div className="flex lg:hidden flex-col">
@@ -630,13 +614,10 @@ export default function Home() {
                   </div>
                   <div className="lg:h-auto h-[110px]">
                     <span className="text-[#D434FE] text-xl font-extrabold flex justify-start">
-                      Announcement of the accepted teams
-                      
-                      and ideas
+                      Announcement of the accepted teams and ideas
                     </span>
                     <p className="text-left lg:text-base  text-sm max-w-[360px]">
                       All teams whom idea has been accepted into getlinked tech
-                      
                       hackathon 1.0 2023 are formally announced
                     </p>
                   </div>
@@ -650,9 +631,8 @@ export default function Home() {
                       Getlinked Hackathon 1.0 Offically Begins
                     </span>
                     <p className="text-sm">
-                      Accepted teams can now proceed to build their
-                      
-                      ground breaking skill driven solutions
+                      Accepted teams can now proceed to build their ground
+                      breaking skill driven solutions
                     </p>
                   </div>
                   <div className="flex  lg:hidden ">
@@ -665,12 +645,9 @@ export default function Home() {
                       Demo Day
                     </span>
                     <p className="text-left lg:text-base  text-sm max-w-[360px]">
-                      
                       Teams get the opportunity to pitch their projects to
-                      judges.
-                      The winner of the hackathon will also be announced on
-                    
-                      this day
+                      judges. The winner of the hackathon will also be announced
+                      on this day
                     </p>
                   </div>
                 </div>
@@ -685,7 +662,6 @@ export default function Home() {
               <div className="flex max-w-[700px] w-full m-auto">
                 <div className="flex flex-col gap-2 text-center lg:text-left m-auto lg:m-0 lg:ml-auto ">
                   <h4 className="text-3xl font-extrabold">
-                    
                     <span>Prizes and</span>
                     <br />
                     <span className="text-[#D434FE]">Rewards</span>
@@ -905,9 +881,7 @@ export default function Home() {
                 <div className="flex justify-between gap-3">
                   <p className="">
                     Below are our privacy & policy, which outline a lot of
-                    goodies.
-                    
-                    it’s our aim to always take of our participant
+                    goodies. it’s our aim to always take of our participant
                   </p>
                   <Image
                     className=" mb-auto "
@@ -1082,44 +1056,44 @@ export default function Home() {
                 alt=""
               />
             </div>
-          <div className="flex lg:pl-0 lg:mr-0 pl-[38px] mr-auto">
-            <ul className="flex flex-col gap-[25px] ">
-              <li className="text-[#D434FE] text-xl font-bold">Contact Us</li>
-              <li className="flex gap-2">
-                <Image
-                  className=" self-end"
-                  src={telephone}
-                  width={20}
-                  height={20}
-                  alt=""
-                />
-                <p>+234 7042298556</p>
-              </li>
-              <li className="flex gap-2">
-                <Image
-                  className=" self-start"
-                  src={location}
-                  width={20}
-                  height={20}
-                  alt=""
-                />
-                <p>
-                  27,Alara Street
-                  <br />
-                  Yaba 100012
-                  <br />
-                  Lagos State
-                </p>
-              </li>
-            </ul>
-            <Image
-              className=" self-end mt-auto"
-              src={whiteStar}
-              width={10}
-              height={20}
-              alt=""
-            />
-          </div>
+            <div className="flex lg:pl-0 lg:mr-0 pl-[38px] mr-auto">
+              <ul className="flex flex-col gap-[25px] ">
+                <li className="text-[#D434FE] text-xl font-bold">Contact Us</li>
+                <li className="flex gap-2">
+                  <Image
+                    className=" self-end"
+                    src={telephone}
+                    width={20}
+                    height={20}
+                    alt=""
+                  />
+                  <p>+234 7042298556</p>
+                </li>
+                <li className="flex gap-2">
+                  <Image
+                    className=" self-start"
+                    src={location}
+                    width={20}
+                    height={20}
+                    alt=""
+                  />
+                  <p>
+                    27,Alara Street
+                    <br />
+                    Yaba 100012
+                    <br />
+                    Lagos State
+                  </p>
+                </li>
+              </ul>
+              <Image
+                className=" self-end mt-auto"
+                src={whiteStar}
+                width={10}
+                height={20}
+                alt=""
+              />
+            </div>
           </div>
         </footer>
       </div>
