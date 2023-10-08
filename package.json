@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
   },
   "dependencies": {
     "@nextui-org/react": "^2.1.13",
