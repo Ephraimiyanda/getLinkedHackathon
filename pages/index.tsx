@@ -51,6 +51,7 @@ export default function Home() {
             <i>Igniting a Revolution in HR Innovation</i>
           </p>
           <Image
+          priority
             src={redCurve}
             width={160}
             height={50}
@@ -62,9 +63,11 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row max-w-[1368px] justify-end items-center m-auto">
             <div className="flex-col gap-5 flex w-fit lg:mr-auto">
               <div className="flex-col flex px-6 pr-[110px] gap-10 -mb-7">
-                <Image src={whiteStar} width={15} height={15} alt="bulb" />
+                <Image
+                priority src={whiteStar} width={15} height={15} alt="bulb" />
 
                 <Image
+                priority
                   src={bulb}
                   width={35}
                   height={35}
@@ -80,6 +83,7 @@ export default function Home() {
                   </h2>
                   <div className="flex mx-auto">
                     <Image
+                    priority
                       src={chain}
                       width={50}
                       height={50}
@@ -87,6 +91,7 @@ export default function Home() {
                       className="mt-4 "
                     />
                     <Image
+                    priority
                       src={bang}
                       width={50}
                       height={50}
@@ -110,6 +115,7 @@ export default function Home() {
               </Button>
               <div className="max-w-[300px] pt-0">
                 <Image
+                priority
                   src={darkStar}
                   width={16}
                   height={16}
@@ -134,6 +140,7 @@ export default function Home() {
 
             <div className="justify-end flex flex-col">
               <Image
+              priority
                 src={man}
                 priority
                 width={100}
@@ -143,6 +150,7 @@ export default function Home() {
               ></Image>
 
               <Image
+              priority
                 src={bubbles}
                 width={100}
                 height={100}
@@ -158,6 +166,7 @@ export default function Home() {
             <div className="flex">
               <div className="max-h-[200px] w-fit flex flex-col justify-center items-center">
                 <Image
+                priority
                   className="items-center"
                   src={purpleStar}
                   width={20}
@@ -167,6 +176,7 @@ export default function Home() {
               </div>
 
               <Image
+              priority
                 src={innovationBulb}
                 width={100}
                 height={100}
@@ -175,6 +185,7 @@ export default function Home() {
               />
               <div className="flex flex-col justify-end items-end -ml-[20px]">
                 <Image
+                priority
                   src={curverArrow}
                   width={70}
                   height={100}
@@ -191,6 +202,7 @@ export default function Home() {
                   <p className="text-[#D434FE]">techHackathon 1.0</p>
                 </div>
                 <Image
+                priority
                   src={purpleStar}
                   width={20}
                   height={20}
@@ -216,6 +228,7 @@ export default function Home() {
               <div>
                 <div className="max-w-[250px] pt-0">
                   <Image
+                  priority
                     src={darkStar}
                     width={26}
                     height={16}
@@ -240,6 +253,7 @@ export default function Home() {
               </p>
             </div>
             <Image
+            priority
               src={womanSitting}
               width={100}
               height={100}
@@ -255,6 +269,7 @@ export default function Home() {
             <div>
               <div className="max-w-[330px] lg:pb-20 flex justify-center items-center">
                 <Image
+                priority
                   src={purpleStar}
                   width={25}
                   height={25}
@@ -262,6 +277,7 @@ export default function Home() {
                 />
               </div>
               <Image
+              priority
                 src={PeopleStanding}
                 width={100}
                 height={100}
@@ -271,6 +287,7 @@ export default function Home() {
               <div className="hidden lg:block color-bg w-[110px] h-[110px] rounded-[50%] -mt-[460px] ml-[65px] xl:-mt-[570px] xl:ml-[110px] 2xl:ml-[120px] 2xl:-mt-[600px]"></div>
               <div className="max-w-[170px] lg:mt-[200px] m-auto">
                 <Image
+                priority
                   src={darkStar}
                   width={26}
                   height={16}
@@ -280,7 +297,8 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col justify-end items-end h-full ml-auto max-w-[300px] w-full max-h-[220px] pr-14 2xl:max-h-[200px]">
-                <Image src={whiteStar} width={25} height={25} alt="whitestar" />
+                <Image
+                priority src={whiteStar} width={25} height={25} alt="whitestar" />
               </div>
             </div>
 
@@ -358,6 +376,7 @@ export default function Home() {
               <div className="flex flex-col gap-2">
                 <div className="-mt-8 -ml-6">
                   <Image
+                  priority
                     src={purpleStar}
                     width={25}
                     height={25}
@@ -408,6 +427,7 @@ export default function Home() {
             <div className="flex flex-col justify-center items-center ">
               <div className="flex gap-[90px] ">
                 <Image
+                priority
                   src={fadedQ}
                   width={40}
                   height={50}
@@ -416,12 +436,14 @@ export default function Home() {
                 />
 
                 <Image
+                priority
                   src={questionMark}
                   width={60}
                   height={50}
                   alt="question mark"
                 />
                 <Image
+                priority
                   src={purpleStar}
                   width={25}
                   height={25}
@@ -430,6 +452,7 @@ export default function Home() {
                 />
                 <div>
                   <Image
+                  priority
                     src={purpleStar}
                     width={25}
                     height={25}
@@ -439,6 +462,7 @@ export default function Home() {
                 </div>
 
                 <Image
+                priority
                   src={fadedQ}
                   width={40}
                   height={50}
@@ -448,6 +472,7 @@ export default function Home() {
               </div>
               <div className="flex w-fit">
                 <Image
+                priority
                   src={darkStar}
                   width={26}
                   height={16}
@@ -456,6 +481,7 @@ export default function Home() {
                 />
                 <div className="w-fit">
                   <Image
+                  priority
                     src={manOnCloud}
                     width={100}
                     height={100}
@@ -467,6 +493,7 @@ export default function Home() {
 
               <div className="max-w-[510px] flex w-full  nl-auto">
                 <Image
+                priority
                   src={whiteStar}
                   width={25}
                   height={25}
@@ -676,6 +703,7 @@ export default function Home() {
               <div className="flex flex-col gap-32 lg:gap-0 lg:flex-row justify-end items-center">
                 <div className="flex flex-col w-[80%] lg:w-[55%] gap-10 m-auto lg:m-0 lg:mr-auto">
                   <Image
+                  priority
                     className="items-center mr-auto absolute"
                     src={purpleStar}
                     width={20}
@@ -683,6 +711,7 @@ export default function Home() {
                     alt="purple circle"
                   />
                   <Image
+                  priority
                     src={goldcup}
                     width={100}
                     height={100}
@@ -690,6 +719,7 @@ export default function Home() {
                     className="w-[100%] mr-auto"
                   />
                   <Image
+                  priority
                     className="items-center ml-auto absolute"
                     src={whiteStar}
                     width={20}
@@ -701,6 +731,7 @@ export default function Home() {
                 <div className="flex gap-5 lg:w-[47%] m-auto lg:m-0">
                   <div className="flex flex-col px-2 items-center justify-center text-center bg-[#D434FE1F] border border-[#D434FE] h-[150px] lg:pt-24 pt-10 lg:w-[120px] w-[30%] my-auto py-10  rounded-[4px]">
                     <Image
+                    priority
                       src={silvermedal}
                       width={50}
                       height={100}
@@ -714,6 +745,7 @@ export default function Home() {
                   <div className="flex flex-col w-[40%] lg:w-[unset]">
                     <div className="flex flex-col items-center justify-center text-center bg-[#903AFF1F] border border-[#903AFF] h-[160px] lg:pt-24 pt-10 lg:w-[120px]  px-2 my-auto py-10  rounded-[4px] mt-8">
                       <Image
+                      priority
                         src={goldmedal}
                         width={70}
                         height={70}
@@ -726,6 +758,7 @@ export default function Home() {
                       <span className="font-bold text-[#903AFF]">N400,000</span>
                     </div>
                     <Image
+                    priority
                       src={darkStar}
                       width={26}
                       height={16}
@@ -735,6 +768,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-col items-center justify-center text-center bg-[#D434FE1F] border border-[#D434FE] h-[150px] lg:pt-24 pt-10 lg:w-[120px] w-[30%] px-2 my-auto py-10  rounded-[4px]">
                     <Image
+                    priority
                       src={bronze}
                       width={50}
                       height={100}
@@ -765,6 +799,7 @@ export default function Home() {
                 </p>
               </div>
               <Image
+              priority
                 className="items-center mr-auto"
                 src={purpleStar}
                 width={20}
@@ -775,6 +810,7 @@ export default function Home() {
             <div className="flex flex-col border border-[#D434FE] border-opacity-[0.5] rounded-[4px] py-10 justify-center items-center gap-6">
               <div className=" grid grid-cols-3 w-full max-w-[700px] pr-11">
                 <Image
+                priority
                   className="items-center ml-auto col-start-2"
                   src={purpleStar}
                   width={20}
@@ -785,6 +821,7 @@ export default function Home() {
               <div className="flex w-full  max-w-[700px] ">
                 <div className=" border-[#D434FE] border-r-2 w-full flex flex-col items-center justify-center">
                   <Image
+                  priority
                     src={libertyAssured}
                     width={100}
                     height={100}
@@ -794,6 +831,7 @@ export default function Home() {
                 </div>
                 <div className=" border-[#D434FE] border-r-2 w-full flex flex-col items-center justify-center">
                   <Image
+                  priority
                     src={Libertypay}
                     width={120}
                     height={100}
@@ -803,6 +841,7 @@ export default function Home() {
                 </div>
                 <div className="  w-full flex flex-col items-center justify-center">
                   <Image
+                  priority
                     src={winwise}
                     width={100}
                     height={100}
@@ -819,6 +858,7 @@ export default function Home() {
               <div className="flex  w-full max-w-[700px]  ">
                 <div className=" border-[#D434FE] border-r-2 w-full flex flex-col items-center justify-center">
                   <Image
+                  priority
                     src={wisper}
                     width={100}
                     height={100}
@@ -828,6 +868,7 @@ export default function Home() {
                 </div>
                 <div className=" border-[#D434FE] border-r-2  w-full flex flex-col items-center justify-center">
                   <Image
+                  priority
                     src={paybox}
                     alt="paybox logo"
                     width={100}
@@ -837,6 +878,7 @@ export default function Home() {
                 </div>
                 <div className="  w-full flex flex-col items-center justify-center">
                   <Image
+                  priority
                     src={visualz}
                     alt="visualz logo"
                     width={120}
@@ -847,6 +889,7 @@ export default function Home() {
               </div>
               <div className=" grid grid-cols-3 w-full max-w-[700px] pr-11">
                 <Image
+                priority
                   className="items-center ml-auto col-start-2"
                   src={whiteStar}
                   width={20}
@@ -868,6 +911,7 @@ export default function Home() {
                     <span className="text-[#D434FE]">Terms</span>
                   </h6>
                   <Image
+                  priority
                     src={darkStar}
                     width={20}
                     height={16}
@@ -884,6 +928,7 @@ export default function Home() {
                     goodies. it’s our aim to always take of our participant
                   </p>
                   <Image
+                  priority
                     className=" mb-auto "
                     src={purpleStar}
                     width={20}
@@ -895,6 +940,7 @@ export default function Home() {
 
               <div className="flex gap-2">
                 <Image
+                priority
                   className="items-center absolute mt-[20%] -ml-8 col-start-2"
                   src={purpleStar}
                   width={20}
@@ -919,6 +965,7 @@ export default function Home() {
                       <li className="flex gap-2">
                         <div className="pt-1">
                           <Image
+                          priority
                             className="mb-auto"
                             src={listicon}
                             width={20}
@@ -934,6 +981,7 @@ export default function Home() {
                       <li className="flex gap-2">
                         <div className="pt-1">
                           <Image
+                          priority
                             className="mb-auto"
                             src={listicon}
                             width={20}
@@ -954,6 +1002,7 @@ export default function Home() {
             </div>
             <div>
               <Image
+              priority
                 className="w-[80%] ml-auto relative z-[10]"
                 src={padlockman}
                 width={20}
@@ -961,6 +1010,7 @@ export default function Home() {
                 alt="man on padlock"
               />
               <Image
+              priority
                 className="lg:w-[30%] m-auto w-[80%] -mt-[350px] lg:absolute lg:m-0  lg:-mt-[600px] lg:ml-[90px]"
                 src={securityIcon}
                 width={20}
@@ -975,6 +1025,7 @@ export default function Home() {
           <div className="flex flex-col justify-start gap-4 lg:gap-0  lg:flex-row max-w-[1368px]  items-center lg:justify-between m-auto px-4">
             <div className="flex gap-4">
               <Image
+              priority
                 className=""
                 src={whiteStar}
                 width={20}
@@ -1018,6 +1069,7 @@ export default function Home() {
               <li className="flex gap-4">
                 <span className="text-[#D434FE] font-bold">Follow us</span>
                 <Image
+                priority
                   className=""
                   src={instagram}
                   width={25}
@@ -1025,6 +1077,7 @@ export default function Home() {
                   alt=""
                 />
                 <Image
+                priority
                   className=""
                   src={twitter}
                   width={20}
@@ -1032,6 +1085,7 @@ export default function Home() {
                   alt=""
                 />
                 <Image
+                priority
                   className=""
                   src={facebook}
                   width={12}
@@ -1039,6 +1093,7 @@ export default function Home() {
                   alt=""
                 />
                 <Image
+                priority
                   className=""
                   src={linkedIn}
                   width={27}
@@ -1049,6 +1104,7 @@ export default function Home() {
             </ul>
             <div className="pt-3 flex flex-col items-start">
               <Image
+              priority
                 className=""
                 src={darkStar}
                 width={15}
@@ -1061,6 +1117,7 @@ export default function Home() {
                 <li className="text-[#D434FE] text-xl font-bold">Contact Us</li>
                 <li className="flex gap-2">
                   <Image
+                  priority
                     className=" self-end"
                     src={telephone}
                     width={20}
@@ -1071,6 +1128,7 @@ export default function Home() {
                 </li>
                 <li className="flex gap-2">
                   <Image
+                  priority
                     className=" self-start"
                     src={location}
                     width={20}
@@ -1087,6 +1145,7 @@ export default function Home() {
                 </li>
               </ul>
               <Image
+              priority
                 className=" self-end mt-auto"
                 src={whiteStar}
                 width={10}
