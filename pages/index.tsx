@@ -199,11 +199,11 @@ export default function Home() {
               </div>
               <p>
                 Our tech hackathon is a melting pot of visionaries, and its
-                purpose is as clear as day: to shape the future. Whether you're
-                a coding genius, a design maverick, or a concept wizard, you'll
+                purpose is as clear as day: to shape the future. Whether you&apos;re
+                a coding genius, a design maverick, or a concept wizard, you&apos;ll
                 have the chance to transform your ideas into reality. Solving
                 real-world problems, pushing the boundaries of technology, and
-                creating solutions that can change the world, that's what we're
+                creating solutions that can change the world, that&apos;s what we&apos;re
                 all about!
               </p>
             </div>
@@ -231,11 +231,11 @@ export default function Home() {
               </div>
               <p className="max-w-[600px]">
                 Our tech hackathon is a melting pot of visionaries, and its
-                purpose is as clear as day: to shape the future. Whether you're
-                a coding genius,a design maverick, or a concept wizard, you'll
+                purpose is as clear as day: to shape the future. Whether you&apos;re
+                a coding genius,a design maverick, or a concept wizard, you&apos;ll
                 have the chance to transform your ideas into reality. Solving
                 real-world problems, pushing the boundaries of technology, and
-                creating solutions that can change the world, that's what we're
+                creating solutions that can change the world, that&apos;s what we&apos;re
                 all about!
               </p>
             </div>
@@ -387,7 +387,7 @@ export default function Home() {
                   <span className="text-[#D434FE] cursor-pointer">+</span>
                 </div>
                 <div className="py-3 border-b border-b-[#D434FE] flex justify-between gap-4">
-                  <p>What happens if I don't have an idea for a project?</p>
+                  <p>What happens if I don&apos;t have an idea for a project?</p>
                   <span className="text-[#D434FE] cursor-pointer">+</span>
                 </div>
                 <div className="py-3 border-b border-b-[#D434FE] flex justify-between gap-4">
