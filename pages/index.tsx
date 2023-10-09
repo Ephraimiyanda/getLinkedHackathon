@@ -424,7 +424,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col justify-center items-center ">
-              <div className="flex gap-[90px] ">
+              <div className="flex gap-16 sm:gap-[90px] ">
                 <Image
                 priority
                   src={fadedQ}
@@ -689,8 +689,8 @@ export default function Home() {
                 <div className="flex flex-col gap-2 text-center lg:text-left m-auto lg:m-0 lg:ml-auto ">
                   <h4 className="text-3xl font-extrabold">
                     <span>Prizes and</span>
-                    <br />
-                    <span className="text-[#D434FE]">Rewards</span>
+                    
+                    <span className="text-[#D434FE]"> Rewards</span>
                   </h4>
                   <p>
                     Highest of the prizes or rewards for winners
@@ -727,7 +727,7 @@ export default function Home() {
                   />
                 </div>
 
-                <div className="flex gap-5 lg:w-[47%] m-auto lg:m-0">
+                <div className="flex sm:gap-[60px] lg:gap-16 gap-9 lg:w-[47%] m-auto lg:m-0">
                   <div className="flex flex-col px-2 items-center justify-center text-center bg-[#D434FE1F] border border-[#D434FE] h-[150px] lg:pt-24 pt-10 lg:w-[120px] w-[30%] my-auto py-10  rounded-[4px]">
                     <Image
                     priority
@@ -735,13 +735,13 @@ export default function Home() {
                       width={50}
                       height={100}
                       alt="silver medal"
-                      className="lg:w-[130px] w-[24%] absolute z-[5] lg:-mt-56 -mt-40"
+                      className="sm:w-[130px] w-[24%] absolute z-[5] lg:-mt-56 -mt-[200px] sm:-mt-[220px]"
                     />
                     <span className="text-lg font-extrabold">2nd</span>
                     <p className="text-sm pb-[6px] -mt-1">Runner</p>
                     <span className="font-bold text-[#D434FE]">N300,000</span>
                   </div>
-                  <div className="flex flex-col w-[40%] lg:w-[unset]">
+                  <div className="flex flex-col w-[40%] sm:w-[180px] lg:w-[unset]">
                     <div className="flex flex-col items-center justify-center text-center bg-[#903AFF1F] border border-[#903AFF] h-[160px] lg:pt-24 pt-10 lg:w-[120px]  px-2 my-auto py-10  rounded-[4px] mt-8">
                       <Image
                       priority
@@ -749,7 +749,7 @@ export default function Home() {
                         width={70}
                         height={70}
                         alt="golg medal"
-                        className="lg:w-[180px] w-[30%] absolute z-[5] lg:-mt-[280px] -mt-[220px]"
+                        className="sm:w-[180px] w-[30%] absolute z-[5]  -mt-[220px]  sm:-mt-[270px]"
                       />
 
                       <span className="text-lg font-extrabold">1st</span>
@@ -765,14 +765,14 @@ export default function Home() {
                       className="ml-auto mt-50 absolute"
                     />
                   </div>
-                  <div className="flex flex-col items-center justify-center text-center bg-[#D434FE1F] border border-[#D434FE] h-[150px] lg:pt-24 pt-10 lg:w-[120px] w-[30%] px-2 my-auto py-10  rounded-[4px]">
+                  <div className="flex flex-col items-center justify-center text-center bg-[#D434FE1F] border border-[#D434FE] h-[150px] lg:pt-24 pt-10 lg:w-[120px] w-[30%] md:w-[180px]  px-2 my-auto py-10  rounded-[4px]">
                     <Image
                     priority
                       src={bronze}
                       width={50}
                       height={100}
                       alt="bronze method"
-                      className="lg:w-[130px] w-[23%] absolute z-[5] lg:-mt-56 -mt-40"
+                      className="sm:w-[130px] w-[23%] absolute z-[5] lg:-mt-56 -mt-[200px] sm:-mt-[220px] "
                     />
                     <span className="text-lg font-extrabold">3rd</span>
                     <p className="text-sm pb-[6px] -mt-1">Runner</p>
