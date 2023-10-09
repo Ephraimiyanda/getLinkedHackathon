@@ -142,7 +142,6 @@ export default function Home() {
               <Image
               priority
                 src={man}
-                priority
                 width={100}
                 height={100}
                 alt="man with glasses"
@@ -938,7 +937,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex gap-2">
+              <div className="flex gap-2 md:m-0 m-auto">
                 <Image
                 priority
                   className="items-center absolute mt-[20%] -ml-8 col-start-2"
