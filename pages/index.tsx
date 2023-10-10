@@ -44,7 +44,7 @@ const unica = Unica_One({
 });
 export default function Home() {
   return (
-    <div className="flex w-full  m-auto">
+    <div className="flex w-full z-10 m-auto">
       <div className="flex flex-col items-center pt-20 w-full ">
         <div className="m-auto lg:pr-20 px-6 w-full max-w-[1368px]">
           <p className=" ml-auto w-fit font-semibold text-[26px] text-right">
@@ -196,7 +196,7 @@ export default function Home() {
 
             <div className="max-w-[540px] m-auto flex flex-col gap-[15px] ">
               <div className="flex justify-between pr-4">
-                <div className="flex flex-col font-extrabold text-3xl">
+                <div className="flex flex-col font-extrabold text-3xl m-auto">
                   <p>Introduction to getlinked</p>
                   <p className="text-[#D434FE]">techHackathon 1.0</p>
                 </div>
