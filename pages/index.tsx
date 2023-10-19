@@ -196,7 +196,7 @@ export default function Home() {
 
             <div className="max-w-[540px] m-auto flex flex-col gap-[15px] ">
               <div className="flex justify-between pr-4">
-                <div className="flex flex-col font-extrabold text-3xl m-auto sm:m-0  ">
+                <div className="flex flex-col font-extrabold text-3xl m-auto md:m-0  ">
                   <p>Introduction to getlinked</p>
                   <p className="text-[#D434FE]">techHackathon 1.0</p>
                 </div>
