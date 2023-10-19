@@ -59,7 +59,7 @@ export default function Home() {
             className="ml-auto"
           />
         </div>
-        <section className=" w-full border-b border-white border-opacity-10 lg:pb-20 lg:pl-[74px] px-2">
+        <section className=" w-full border-b border-white border-opacity-10 lg:pb-[36px] xl:p-0 lg:pl-[74px] px-2">
           <div className="flex flex-col lg:flex-row max-w-[1368px] justify-end items-center m-auto">
             <div className="flex-col gap-5 flex w-fit lg:mr-auto">
               <div className="flex-col flex px-6 pr-[110px] gap-10 -mb-7">
@@ -77,7 +77,7 @@ export default function Home() {
               </div>
               <div className=" text-[50px] font-extrabold flex flex-col gap-0 text-center lg:text-left">
                 <h1 className=" break-words">getlinked Tech</h1>
-                <div className="flex flex-wrap">
+                <div className="flex flex-wrap sm:flex-nowrap">
                   <h2>
                     Hackathon <span className="text-[#D434FE]">1.0</span>
                   </h2>
@@ -145,7 +145,7 @@ export default function Home() {
                 width={100}
                 height={100}
                 alt="man with glasses"
-                className="w-[80%] m-auto lg:ml-auto lg:-mt-[18px] "
+                className="w-[80%] m-auto  lg:-mt-[18px] "
               ></Image>
 
               <Image
@@ -154,7 +154,7 @@ export default function Home() {
                 width={100}
                 height={100}
                 alt="bubble"
-                className="absolute lg:relative  mr-0 lg:m-auto lg:-mt-[549px] lg:mr-[90px] w-[60%]"
+                className="absolute  lg:w-[500px] mr-0 lg:m-auto lg:-mt-[549px] lg:mr-[90px] w-[60%]"
               ></Image>
             </div>
           </div>
@@ -196,7 +196,7 @@ export default function Home() {
 
             <div className="max-w-[540px] m-auto flex flex-col gap-[15px] ">
               <div className="flex justify-between pr-4">
-                <div className="flex flex-col font-extrabold text-3xl m-auto">
+                <div className="flex flex-col font-extrabold text-3xl sm:m-0 m-auto ">
                   <p>Introduction to getlinked</p>
                   <p className="text-[#D434FE]">techHackathon 1.0</p>
                 </div>
